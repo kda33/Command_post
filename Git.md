@@ -123,6 +123,10 @@ git branch [branch name]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 git branch -d [branch name]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#### This command deletes the remote feature branch.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+git push origin --delete feature-branch
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #### This command is used to switch from one branch to another.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 git checkout -b [branch name]
