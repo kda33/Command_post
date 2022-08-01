@@ -26,6 +26,11 @@ sudo du -sh var/
 Output
 85G	/var
 
+#### Getting the Size of a Directory human readable
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+du --summarize --human-readable *
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 #### File search ( views.py -the file we are looking for )
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 find ./ -name “views.py”
