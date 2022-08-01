@@ -30,6 +30,10 @@ docker network prune -f ( -f flag to bypass the prompt. )
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 docker volume ls
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#### Show all volumes size
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+docker system df -v
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #### Remove volume
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 docker volume rm user_pgdata
